@@ -41,7 +41,7 @@ const HackerNewsApp = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
           className="mr-2"
         />
-        <Button variant="outline">
+        <Button variant="outline" className="bg-green-500 hover:bg-green-600 text-white border-green-600">
           <Search className="h-4 w-4" />
         </Button>
       </div>
